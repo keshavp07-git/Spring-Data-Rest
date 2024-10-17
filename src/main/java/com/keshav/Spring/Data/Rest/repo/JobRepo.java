@@ -6,9 +6,8 @@ import java.util.List;
 
 @Repository
 public interface JobRepo extends JpaRepository <JobPost, Integer> {
-
-    // List<JobPost> findByPostProfileContainingIgnoreCaseOrPostDescContainingIgnoreCase(String postProfile, String postDesc);
-
+ // <JobPost , Integer> Here we can see it connect with jobRepo,
+ // it will return Integer type List which contain all data
 
  }
 
